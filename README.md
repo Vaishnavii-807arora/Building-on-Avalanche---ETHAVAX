@@ -23,7 +23,13 @@ The owner of the contract can create new tokens by calling the mint function, in
 The contract includes the concept of in-game prizes that users can redeem using their DGT tokens. Each prize has a unique identifier, and the cost of each prize is stored in the prizeCosts mapping. Users can use their tokens to redeem prizes by calling the redeem function with the appropriate prizeId. The specific in-game item/prize redemption logic should be implemented externally and triggered within the redeem function.
 
 ## Item Management
-The contract also provides basic functionality to manage in-game items. The contract owner can add new items and their corresponding details using the addItem function. Users can retrieve the details of an item by calling the getItemDetails function with the itemId.
+The contract also provides basic functionality to manage in-game items. The contract owner can add new items and their corresponding details using the **addItem** function. Users can retrieve the details of an item by calling the **getItemDetails** function with the **itemId**.
+
+## Author
+Vaishnavi Arora
+
+## License
+This contract is licensed under the MIT License. SPDX-License-Identifier: MIT.
 
 
 
